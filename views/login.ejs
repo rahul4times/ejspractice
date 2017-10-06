@@ -5,10 +5,10 @@
     <title></title>
   </head>
   <body>
-    <h1>Current user - </h1>
+    <h1>Current user - <%=myObject[myObject.length-1].name%></h1>
     <form action="/login" method="post">
       <input type="text" name="name" placeholder="Name">
-      <input type="submit" >
+      <input type="submit">
     </form>
   </body>
 </html>
